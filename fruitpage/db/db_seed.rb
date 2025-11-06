@@ -10,7 +10,7 @@ db.execute <<-SQL
   );
 SQL
 
-db.execute("DELETE FROM fruits")  # Rensa tabellen först
+db.execute("DELETE FROM fruits")  
 
 fruits = [
   ['Äpple',10], 
